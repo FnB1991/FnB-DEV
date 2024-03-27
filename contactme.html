@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/generalstyles.css" />
+    <title>FnB - Development - Contact Me</title>
+</head>
+
+<body>
+    
+    <section class="contact-form">
+        <form action="send_email.php" method="post">
+            <label for="name"><b>Nome:</b></label><br>
+            <input type="text" name="name" id="name" placeholder="Nome completo" autocomplete="off" required><br><br>
+       
+            <label for="email"><b>E-mail:</b></label><br>
+            <input type="email" name="email" id="email" placeholder="Seu melhor e-mail" autocomplete="email" required><br><br>
+
+            <label for="fone"><b>Telefone:</b></label><br>
+            <input type="tel" name="fone" id="fone" placeholder="Telefone com DDI e DDD" autocomplete="tel-country-code" required><br><br>
+
+            <button type="submit">Enviar</button>
+
+            <button type="reset">Limpar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
